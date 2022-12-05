@@ -9,4 +9,9 @@ public class StudentController {
     public String Homepage(){
         return "Welcome to my website";
     }
+
+    @GetMapping("/contact")
+    public String Contact(){
+        return "Welcome to my contact page";
+    }
 }
