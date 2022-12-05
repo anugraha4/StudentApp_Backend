@@ -18,4 +18,8 @@ public class StudentController {
     public String Gallery(){
         return "Welcome to gallery";
     }
+    @GetMapping("/home")
+    public String Home(){
+        return "Welcome to my home page";
+    }
 }
